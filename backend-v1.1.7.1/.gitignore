@@ -1,0 +1,13 @@
+.idea
+*db.sqlite3
+static/
+staticfiles/
+media/
+__pycache__/
+*.py[cod]
+docs/build/
+*.out
+poetry.lock
+../.idea/
+!consultation/static/
+.env

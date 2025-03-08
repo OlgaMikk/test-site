@@ -1,0 +1,106 @@
+Mar 05 10:57:10 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 05 10:57:10 cv4543723.novalocal dockerd[3001]: time="2025-03-05T10:57:10.952250391+03:00" level=info msg="Starting up"
+Mar 05 10:57:10 cv4543723.novalocal dockerd[3001]: time="2025-03-05T10:57:10.954615415+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Mar 05 10:57:11 cv4543723.novalocal dockerd[3001]: time="2025-03-05T10:57:11.120407283+03:00" level=info msg="Loading containers: start."
+Mar 05 10:57:11 cv4543723.novalocal dockerd[3001]: time="2025-03-05T10:57:11.427351353+03:00" level=info msg="Loading containers: done."
+Mar 05 10:57:11 cv4543723.novalocal dockerd[3001]: time="2025-03-05T10:57:11.499919751+03:00" level=info msg="Docker daemon" commit=659604f graphdriver=overlay2 version=24.0.2
+Mar 05 10:57:11 cv4543723.novalocal dockerd[3001]: time="2025-03-05T10:57:11.500113627+03:00" level=info msg="Daemon has completed initialization"
+Mar 05 10:57:11 cv4543723.novalocal dockerd[3001]: time="2025-03-05T10:57:11.556651922+03:00" level=info msg="API listen on /run/docker.sock"
+Mar 05 10:57:11 cv4543723.novalocal systemd[1]: Started docker.service - Docker Application Container Engine.
+Mar 05 11:23:47 cv4543723.novalocal dockerd[3001]: time="2025-03-05T11:23:47.321488688+03:00" level=error msg="Not continuing with pull after error: errors:\ndenied: requested access to the resource is denied\nunauthorized: authentication required\n"
+Mar 05 11:23:47 cv4543723.novalocal dockerd[3001]: time="2025-03-05T11:23:47.321573275+03:00" level=info msg="Ignoring extra error returned from registry" error="unauthorized: authentication required"
+Mar 05 11:25:22 cv4543723.novalocal dockerd[3001]: time="2025-03-05T11:25:22.479245743+03:00" level=info msg="ignoring event" container=fa02b1b90187acbaab180e7cd2482ebd9ebe6ad92aa87504b9d38081b0c89a74 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Mar 05 19:04:18 cv4543723.novalocal dockerd[3001]: time="2025-03-05T19:04:18.467038779+03:00" level=warning msg="Failed to allocate and map port 80-80: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Mar 05 19:04:18 cv4543723.novalocal dockerd[3001]: time="2025-03-05T19:04:18.500001148+03:00" level=error msg="Handler for POST /v1.43/containers/1044560ac0f3fe756fcc487b1c347b6c6d7ec50e143876179de2664f90b26d4d/start returned error: driver failed programming external connectivity on endpoint sleepy_franklin (917be20eeb8256ff011ae40794f56dae9d813a8362f1f281b952da99a3fdbf48): Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Mar 06 12:13:53 cv4543723.novalocal dockerd[3001]: time="2025-03-06T12:13:53.688515552+03:00" level=error msg="Not continuing with pull after error: manifest unknown: manifest unknown"
+Mar 06 12:19:25 cv4543723.novalocal dockerd[3001]: time="2025-03-06T12:19:25.640357126+03:00" level=info msg="ignoring event" container=c6d6630d806d934a18d5214fee42388685827ede6f7f1dbc281fd54c1471d0e2 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Mar 06 12:20:57 cv4543723.novalocal dockerd[3001]: time="2025-03-06T12:20:57.779274399+03:00" level=error msg="Not continuing with pull after error: errors:\ndenied: requested access to the resource is denied\nunauthorized: authentication required\n"
+Mar 06 12:20:57 cv4543723.novalocal dockerd[3001]: time="2025-03-06T12:20:57.779406407+03:00" level=info msg="Ignoring extra error returned from registry" error="unauthorized: authentication required"
+Mar 06 12:21:27 cv4543723.novalocal dockerd[3001]: time="2025-03-06T12:21:27.981962326+03:00" level=info msg="ignoring event" container=0d17c41ba0a36e86f9ae40d4290beca45a944657bf42cf75c43a3b54a0740a29 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Mar 06 12:27:27 cv4543723.novalocal dockerd[3001]: time="2025-03-06T12:27:27.228883593+03:00" level=info msg="ignoring event" container=ff25d8bbe8287ded6d70939f0b6b8a6f40adb40fa82ec17564194f368351ee91 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Mar 06 12:27:53 cv4543723.novalocal dockerd[3001]: time="2025-03-06T12:27:53.435318335+03:00" level=info msg="ignoring event" container=fb07c89ce2f7dd6b8fbd2ab95a29669f221cb89470dc38178c62b82342ba5772 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Mar 06 12:42:36 cv4543723.novalocal dockerd[3001]: time="2025-03-06T12:42:36.617216948+03:00" level=info msg="ignoring event" container=084df0f2e275b7b5d5063fa03a34af6e78d236982a4fd5a437501a42d280c9c3 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Mar 06 19:48:14 cv4543723.novalocal dockerd[3001]: time="2025-03-06T19:48:14.305767294+03:00" level=info msg="ignoring event" container=9adf54d7cb81f26263038356b045a8e5c8f6e64598ad009ea66e168aa20b8589 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Mar 06 19:49:23 cv4543723.novalocal dockerd[3001]: time="2025-03-06T19:49:23.553941577+03:00" level=error msg="Not continuing with pull after error: errors:\ndenied: requested access to the resource is denied\nunauthorized: authentication required\n"
+Mar 06 19:49:23 cv4543723.novalocal dockerd[3001]: time="2025-03-06T19:49:23.554059025+03:00" level=info msg="Ignoring extra error returned from registry" error="unauthorized: authentication required"
+Mar 06 20:03:39 cv4543723.novalocal dockerd[3001]: time="2025-03-06T20:03:39.461667378+03:00" level=info msg="ignoring event" container=f5d5ba729ea9327a49df48bee0fd1c238cdb9c7243ea182e052be2a4aba4a66e module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Mar 07 13:56:56 cv4543723.novalocal systemd[1]: Stopping docker.service - Docker Application Container Engine...
+Mar 07 13:56:56 cv4543723.novalocal dockerd[3001]: time="2025-03-07T13:56:56.124983555+03:00" level=info msg="Processing signal 'terminated'"
+Mar 07 13:56:56 cv4543723.novalocal dockerd[3001]: time="2025-03-07T13:56:56.297060117+03:00" level=info msg="Daemon shutdown complete"
+Mar 07 13:56:56 cv4543723.novalocal systemd[1]: docker.service: Deactivated successfully.
+Mar 07 13:56:56 cv4543723.novalocal systemd[1]: Stopped docker.service - Docker Application Container Engine.
+Mar 07 13:56:56 cv4543723.novalocal systemd[1]: docker.service: Consumed 1min 20.561s CPU time, 416.0M memory peak, 0B memory swap peak.
+[0;1;39m-- Boot 5eef2afbf7214a36946bc8775708ad65 --[0m
+Mar 07 20:57:25 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 20:57:26 cv4543723.novalocal dockerd[813]: Status: unknown flag: --contained
+Mar 07 20:57:26 cv4543723.novalocal dockerd[813]: See 'dockerd --help'., Code: 125
+Mar 07 20:57:26 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 20:57:26 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 20:57:26 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 20:57:28 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+Mar 07 20:57:28 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 20:57:28 cv4543723.novalocal dockerd[873]: Status: unknown flag: --contained
+Mar 07 20:57:28 cv4543723.novalocal dockerd[873]: See 'dockerd --help'., Code: 125
+Mar 07 20:57:28 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 20:57:28 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 20:57:28 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 20:57:30 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+Mar 07 20:57:30 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 20:57:30 cv4543723.novalocal dockerd[879]: Status: unknown flag: --contained
+Mar 07 20:57:30 cv4543723.novalocal dockerd[879]: See 'dockerd --help'., Code: 125
+Mar 07 20:57:30 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 20:57:30 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 20:57:30 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 20:57:32 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+Mar 07 20:57:32 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Start request repeated too quickly.[0m
+Mar 07 20:57:32 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 20:57:32 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 21:26:07 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 21:26:07 cv4543723.novalocal dockerd[2851]: Status: unknown flag: --contained
+Mar 07 21:26:07 cv4543723.novalocal dockerd[2851]: See 'dockerd --help'., Code: 125
+Mar 07 21:26:07 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 21:26:07 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 21:26:07 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 21:26:09 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+Mar 07 21:26:09 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 21:26:09 cv4543723.novalocal dockerd[2858]: Status: unknown flag: --contained
+Mar 07 21:26:09 cv4543723.novalocal dockerd[2858]: See 'dockerd --help'., Code: 125
+Mar 07 21:26:09 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 21:26:09 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 21:26:09 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 21:26:12 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+Mar 07 21:26:12 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 21:26:12 cv4543723.novalocal dockerd[2865]: Status: unknown flag: --contained
+Mar 07 21:26:12 cv4543723.novalocal dockerd[2865]: See 'dockerd --help'., Code: 125
+Mar 07 21:26:12 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 21:26:12 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 21:26:12 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 21:26:14 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+Mar 07 21:26:14 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Start request repeated too quickly.[0m
+Mar 07 21:26:14 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 21:26:14 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+[0;1;39m-- Boot 8b3cbd043fca440181918b71cbf35242 --[0m
+Mar 07 21:54:18 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 21:54:19 cv4543723.novalocal dockerd[815]: Status: unknown flag: --contained
+Mar 07 21:54:19 cv4543723.novalocal dockerd[815]: See 'dockerd --help'., Code: 125
+Mar 07 21:54:19 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 21:54:19 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 21:54:19 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 21:54:21 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+Mar 07 21:54:21 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 21:54:21 cv4543723.novalocal dockerd[875]: Status: unknown flag: --contained
+Mar 07 21:54:21 cv4543723.novalocal dockerd[875]: See 'dockerd --help'., Code: 125
+Mar 07 21:54:21 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 21:54:21 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 21:54:21 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 21:54:24 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+Mar 07 21:54:24 cv4543723.novalocal systemd[1]: Starting docker.service - Docker Application Container Engine...
+Mar 07 21:54:24 cv4543723.novalocal dockerd[881]: Status: unknown flag: --contained
+Mar 07 21:54:24 cv4543723.novalocal dockerd[881]: See 'dockerd --help'., Code: 125
+Mar 07 21:54:24 cv4543723.novalocal systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+Mar 07 21:54:24 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 21:54:24 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m
+Mar 07 21:54:26 cv4543723.novalocal systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+Mar 07 21:54:26 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Start request repeated too quickly.[0m
+Mar 07 21:54:26 cv4543723.novalocal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+Mar 07 21:54:26 cv4543723.novalocal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start docker.service - Docker Application Container Engine.[0m

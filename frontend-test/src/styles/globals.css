@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @import "swiper/css";
+    @import "@fontsource/onest";
+    @import "@fontsource/onest/400.css";
+    @import "@fontsource/onest/500.css";
+    @import "@fontsource/onest/600.css";
+    @import "@fontsource/onest/700.css";
+}
+
+@layer base {
+    :root {
+        --foreground: 210, 10%, 8%;
+        --background: 0, 0%, 98%;
+
+        --primary: 30, 28%, 55%;
+        --primary-hover: 30, 28%, 45%;
+
+        --gray: 0 0% 67%;
+        --gray-dark: 0 0% 31%;
+        --gray-light: 0 0% 89%;
+        --gray-bg: 0 0% 97%;
+
+        --fields: 0 0% 67%;
+        --fields-hover: 101 36% 46%;
+
+        --destructive: 360 81% 46%;
+    }
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    * {
+        @apply border-gray;
+    }
+
+    body {
+        @apply flex h-screen min-w-[375px] flex-col overflow-x-hidden scroll-smooth bg-white font-mono text-base text-foreground antialiased;
+
+        font-feature-settings:
+            "rlig" 1,
+            "calt" 1;
+    }
+
+    input,
+    select {
+        font-size: inherit;
+    }
+    .ymaps-2-1-79-copyrights-pane {
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+    /* sw-button {
+        opacity: 0 !important;
+        pointer-events: none !important;
+    } */
+}

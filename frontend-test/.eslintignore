@@ -1,0 +1,11 @@
+node_modules
+generated
+build
+dist
+out
+.gitignore
+.eslintrc.cjs
+.prettierrc.mjs
+codegen.config.ts
+*.config.js
+src.old

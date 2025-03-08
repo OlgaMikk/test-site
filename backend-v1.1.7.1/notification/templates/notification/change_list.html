@@ -1,0 +1,25 @@
+{% extends 'admin/change_list.html' %}
+{% load static %}
+
+{% block object-tools-items %}
+    {% for notificaion_type in notification_types %}
+        <li>
+        {% if notificaion_type in user.email_notification.enabled_notifications.all %}
+            <a
+                    class="addlink"
+                    href="{% url 'email_notification_action' %}?action=unsubscribe&notification_type={{ notificaion_type.system_name }}"
+                    style="background: linear-gradient(#d34f4f, #bf3030)"
+            >
+                Отписаться от "{{ notificaion_type.name }}"
+            </a>
+        {% else %}
+            <a class="addlink"
+               href="{% url 'email_notification_action' %}?action=subscribe&notification_type={{ notificaion_type.system_name }}"
+            >
+                Подписаться на "{{ notificaion_type.name }}"
+            </a>
+        {% endif %}
+        </li>
+    {% endfor %}
+    {{ block.super }}
+{% endblock %}

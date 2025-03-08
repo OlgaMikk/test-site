@@ -1,0 +1,18 @@
+{
+    "cSpell.words": [
+        "ЛЕННАР",
+        "ОГРН",
+        "эскроу",
+        "apikey",
+        "ogrn",
+        "uralsib",
+        "yandexcloud",
+        "ymaps"
+    ],
+    "tailwindCSS.experimental.classRegex": [
+        ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+        ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+}
