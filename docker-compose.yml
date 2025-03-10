@@ -1,17 +1,23 @@
-version: "1.29.2"
+version: "1.29.2"  
 services:
   backend:
     build:
       context: ./backend-v1.1.7.1
-      dockerfile: Dockerfile  
+      dockerfile: Dockerfile
     ports:
       - "8000:8000"
   frontend:
     build:
       context: ./frontend-test
-      dockerfile: Dockerfile  
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     depends_on:
       - backend
-
+    networks:
+      default:
+        aliases:
+          - frontend-alias
+networks:
+  default:
+    driver: bridge
