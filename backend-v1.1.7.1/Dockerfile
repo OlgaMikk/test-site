@@ -21,6 +21,6 @@ RUN poetry config virtualenvs.create false
 RUN poetry install --no-root
 
 COPY . .
-RUN runner/django_collect_static.sh
+
 
 ENTRYPOINT "./runner/runner.sh"
