@@ -15,8 +15,3 @@ services:
     depends_on:
       - backend
 
-networks:
-  my-network:
-    driver: bridge
-    driver_opts:
-      com.docker.network.driver.mtu: 1450
