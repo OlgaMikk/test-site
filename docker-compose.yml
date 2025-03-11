@@ -5,7 +5,7 @@ services:
       context: ./backend-v1.1.7.1
       dockerfile: Dockerfile
     ports:
-      - "8000:8000"
+      - "3000:3000"
   frontend:
     build:
       context: ./frontend-test
