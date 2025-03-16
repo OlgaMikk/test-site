@@ -11,4 +11,6 @@ COPY . .
 ENV NEXT_HOSTNAME=$NEXT_HOSTNAME
 RUN echo ${NEXT_HOSTNAME}
 
+RUN yarn build
 
+ENTRYPOINT ./runfrontend.sh
